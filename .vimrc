@@ -22,3 +22,6 @@ colorscheme monokai
 
 "Setting line numbers
 set number
+
+"Set folding properly
+set foldmethod syntax
