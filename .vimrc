@@ -25,3 +25,6 @@ set number
 
 "Set folding properly
 set foldmethod=syntax
+
+" Only fold the highest level
+set foldnestmax=1
