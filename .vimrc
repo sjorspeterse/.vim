@@ -24,4 +24,4 @@ colorscheme monokai
 set number
 
 "Set folding properly
-set foldmethod syntax
+set foldmethod=syntax
