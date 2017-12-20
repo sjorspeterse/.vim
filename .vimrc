@@ -28,3 +28,6 @@ set foldmethod=syntax
 
 " Only fold the highest level
 set foldnestmax=1
+
+" Enter in normal mode
+nmap <ENTER> o<esc>
