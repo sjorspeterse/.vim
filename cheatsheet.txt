@@ -8,7 +8,26 @@ ge	go back to end of previous word
 %	move to matching parenthesis
 ZZ	save an close file (:wq)
 zz	set current line to middle of the screen
+?word	search for word backwards
+*	search for word under cursor
+#	search for word under cursor backwards
+''	jump back and forth between marks (jumped positions)
+CTRL-O	jump to previous mark
+<Tab>	jump to next mark. <CTRL-I> can also be used
+m[a-z]	mark the place under the cursor
+`[a-z]	jump to mark
+'[a-z]	jump to beginning of marked line
 
 
 Options:
 scrolloff=999			Make sure the cursor is always in the middle of the screen
+ignorecase			Ignores case with searches
+hlsearch			Highlights searches. ":noh" for turning of highlights
+incsearch			Highlight while typing search
+
+
+
+Regex:
+^	Beginning of a line
+$	End of a line
+.	Single character
