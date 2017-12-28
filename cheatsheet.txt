@@ -1,0 +1,14 @@
+Commands:
+J	delete line break
+CTRL-R	redo
+U	undo line
+ge	go back to end of previous word
+;	repeat single-character search forward
+,	repeat single-character search backward
+%	move to matching parenthesis
+ZZ	save an close file (:wq)
+zz	set current line to middle of the screen
+
+
+Options:
+scrolloff=999			Make sure the cursor is always in the middle of the screen
