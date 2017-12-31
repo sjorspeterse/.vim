@@ -17,17 +17,49 @@ CTRL-O	jump to previous mark
 m[a-z]	mark the place under the cursor
 `[a-z]	jump to mark
 '[a-z]	jump to beginning of marked line
+CTRL-W w switch between open windows
 
+X, dh	delete character left of cursor
+
+D, d$	delete to end of the line
+C, c$	change to end of the line
+s, cl	change one character
+S, cc	change the whole line
+Y, yy	yank the whole line
+
+.	Repeat the last change
+V	Visual mode, whole lines
+CTRL-V	Visual block mode
+v_o	(o in visual mode): go to the other side
+P	put before the cursor
+
+"*p	paste from the clipboard
+
+Text objects:
+aw	a word
+is	inner sentence
+
+R	Replace mode
+~	Change case
+I	Insert before the first non-blank in the line
 
 Options:
 scrolloff=999			Make sure the cursor is always in the middle of the screen
 ignorecase			Ignores case with searches
 hlsearch			Highlights searches. ":noh" for turning of highlights
 incsearch			Highlight while typing search
-
-
+autowrite			Automatically save files
+list				View tabs and trailing spaces
+listchars=tab:>-,trail:-	Make tabs and trailing spaces pretty
 
 Regex:
 ^	Beginning of a line
 $	End of a line
 .	Single character
+
+I am some stuff
+
+	Hello there.  Another line.  Just 
+	some text. 
+
+    ahdkfjasl kldfjaik typen omdat ik cool benohallomijn naam is sjors  
