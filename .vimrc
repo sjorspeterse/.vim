@@ -89,8 +89,6 @@ else
 
 endif " has("autocmd")
   
-packadd! matchit
-
 "Set folding properly
 set foldmethod=syntax
 
