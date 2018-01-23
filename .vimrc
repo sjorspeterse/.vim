@@ -89,12 +89,6 @@ else
 
 endif " has("autocmd")
   
-"Set folding properly
-set foldmethod=syntax
-
-" Only fold the highest level
-set foldnestmax=1
-
 
 """"""""""""""""""""""""""""""""""""""""""
 "       Custom keymappings  
