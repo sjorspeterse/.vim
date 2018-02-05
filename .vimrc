@@ -16,6 +16,7 @@ syntax on
 
 "Setting the colorscheme to monokai
 colorscheme monokai
+"colorscheme morning
 
 "Setting line numbers
 set number
@@ -32,7 +33,7 @@ set showcmd
 """"""""""""""""""""""""""""""""""""""""""
 
 "Making sure the curor stays in the middle of the screen
-set scrolloff=999
+"set scrolloff=999
 
 
 """"""""""""""""""""""""""""""""""""""""""
@@ -90,10 +91,10 @@ else
 endif " has("autocmd")
   
 "Set folding properly
-set foldmethod=syntax
+"set foldmethod=syntax
 
 " Only fold the highest level
-set foldnestmax=1
+"set foldnestmax=1
 
 
 """"""""""""""""""""""""""""""""""""""""""
@@ -135,3 +136,6 @@ endif
 
 " Automatically save files
 set autowrite
+
+set printoptions=left:2pc,right:2pc,top:2pc,bottom:2pc,portrait:y,header:1,paper:A3
+
