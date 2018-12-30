@@ -57,9 +57,3 @@ Regex:
 $	End of a line
 .	Single character
 
-I am some stuff
-
-	Hello there.  Another line.  Just 
-	some text. 
-
-    ahdkfjasl kldfjaik typen omdat ik cool benohallomijn naam is sjors  
