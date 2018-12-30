@@ -92,10 +92,10 @@ endif " has("autocmd")
 packadd! matchit
 
 "Set folding properly
-set foldmethod=syntax
+"set foldmethod=syntax
 
 " Only fold the highest level
-set foldnestmax=1
+"set foldnestmax=1
 
 
 """"""""""""""""""""""""""""""""""""""""""
@@ -123,12 +123,6 @@ endif
 
 set undodir=~/.vim/undo-dir
 set undofile
-
-if has("vms")
-  set nobackup		" do not keep a backup file, use versions instead
-else
-  set backup		" keep a backup file (restore to previous version)
-endif
 
 " Automatically save files
 set autowrite
