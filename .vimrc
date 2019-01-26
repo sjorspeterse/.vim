@@ -101,6 +101,8 @@ packadd! matchit
 """"""""""""""""""""""""""""""""""""""""""
 "       Custom keymappings  
 """"""""""""""""""""""""""""""""""""""""""
+" makes autoindent work when doing O too
+nmap O ko
 
 " Enter in normal mode
 nmap <ENTER> o<esc>
