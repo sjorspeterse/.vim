@@ -16,6 +16,7 @@ syntax on
 
 "Setting the colorscheme to monokai
 colorscheme monokai
+"colorscheme morning
 
 "Setting line numbers
 set number
@@ -32,7 +33,7 @@ set showcmd
 """"""""""""""""""""""""""""""""""""""""""
 
 "Making sure the curor stays in the middle of the screen
-set scrolloff=999
+"set scrolloff=999
 
 
 """"""""""""""""""""""""""""""""""""""""""
@@ -89,8 +90,6 @@ else
 
 endif " has("autocmd")
   
-packadd! matchit
-
 "Set folding properly
 "set foldmethod=syntax
 
@@ -123,8 +122,22 @@ if !isdirectory($HOME."/.vim/undo-dir")
     call mkdir($HOME."/.vim/undo-dir", "", 0700)
 endif
 
+if !isdirectory($HOME."/.vim/backup-dir")
+    call mkdir($HOME."/.vim/backup-dir", "", 0700)
+endif
+
 set undodir=~/.vim/undo-dir
 set undofile
 
+if has("vms")
+  set nobackup		" do not keep a backup file, use versions instead
+else
+  set backup		" keep a backup file (restore to previous version)
+  set backupdir=~/.vim/backup-dir
+endif
+
 " Automatically save files
 set autowrite
+
+set printoptions=left:2pc,right:2pc,top:2pc,bottom:2pc,portrait:y,header:1,paper:A3
+
