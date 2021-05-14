@@ -33,7 +33,7 @@ set showcmd
 """"""""""""""""""""""""""""""""""""""""""
 
 "Making sure the curor stays in the middle of the screen
-"set scrolloff=999
+set scrolloff=999
 
 
 """"""""""""""""""""""""""""""""""""""""""
@@ -50,6 +50,8 @@ set incsearch
 "       Coding  
 """"""""""""""""""""""""""""""""""""""""""
 
+set tabstop=4
+set shiftwidth=4
 " tells vim to apply the indentation of the current line to the next 
 " (created by pressing enter in insert mode or with O or o in normal mode).
 " set autoindent
